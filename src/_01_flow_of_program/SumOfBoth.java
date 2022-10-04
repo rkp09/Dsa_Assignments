@@ -2,7 +2,7 @@ package _01_flow_of_program;
 
 import java.util.Scanner;
 
-public class sumOfBoth {
+public class SumOfBoth {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int a, b;
