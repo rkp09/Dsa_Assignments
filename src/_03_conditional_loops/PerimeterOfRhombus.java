@@ -2,7 +2,7 @@ package _03_conditional_loops;
 
 import java.util.Scanner;
 
-public class PerimeterOfSquare {
+public class PerimeterOfRhombus {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -10,7 +10,7 @@ public class PerimeterOfSquare {
         // perimeter = 2 * a (a = side length)
 
         // Input for the length of the square
-        System.out.print("Enter the side length of the square: ");
+        System.out.print("Enter the side length of the rectangle: ");
         double a = in.nextDouble();
 
         // Perimeter of square
