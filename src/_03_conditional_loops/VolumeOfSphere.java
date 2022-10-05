@@ -9,7 +9,7 @@ public class VolumeOfSphere {
         // Formula for volume of sphere is
         // volume = 4 / 3 * PI * r^3 (r = radius)
 
-        // Input for the base area of cylinder
+        // Input for the radius of cylinder
         System.out.print("Enter the radius of sphere: ");
         double r = in.nextDouble();
 
