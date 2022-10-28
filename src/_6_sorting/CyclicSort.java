@@ -14,16 +14,20 @@ public class CyclicSort {
 
         // Run the loop until N
         while (i < nums.length){
-            // If nums[i] is equal to nums[nums[i] - 1] it is in the correct index.
-            // Example: If 1 is at 0 then it is in its correct index.
-            if(i != nums[i] - 1){
+            int correct = nums[i] - 1;
+            if(nums[i] != nums[correct]){
                 // Swap the value with its correct index
-                int temp = nums[nums[i] - 1];
-                nums[nums[i] - 1] = nums[i];
-                nums[i] = temp;
+                swap(nums, i, correct);
             }else{
                 i++;
             }
         }
+    }
+
+
+    public static void swap(int[] nums, int first, int second){
+        int temp = nums[first];
+        nums[first] = nums[second];
+        nums[second] = temp;
     }
 }
