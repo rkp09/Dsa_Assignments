@@ -20,9 +20,9 @@ public class UniqueNumber_2 {
 
         int max = 0;
         // Get the maximum value
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] > max)
-                max = nums[i];
+        for (int num : nums) {
+            if (num > max)
+                max = num;
         }
 
         // Get the length of the binary representation of the maximum number
@@ -31,11 +31,11 @@ public class UniqueNumber_2 {
         // Create the array of set bit
         int[] setBits = new int[len];
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int num : nums) {
             int j = 0;
             // Store the current number in a temp variable
-            int temp = nums[i];
-            while (j < length(nums[i])){
+            int temp = num;
+            while (j < length(num)) {
                 // Check that temp & 1 gives us greater than zero or not
                 // If it gives us 1 then increment corresponding cell value of setBit by 1.
                 if ((temp & 1) > 0)
