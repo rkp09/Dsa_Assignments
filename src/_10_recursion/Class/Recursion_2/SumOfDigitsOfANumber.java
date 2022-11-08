@@ -1,4 +1,4 @@
-package _10_recursion.Class.Recursion_1;
+package _10_recursion.Class.Recursion_2;
 
 public class SumOfDigitsOfANumber {
     public static void main(String[] args) {

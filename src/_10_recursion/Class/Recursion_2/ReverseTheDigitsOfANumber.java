@@ -1,4 +1,4 @@
-package _10_recursion.Class.Recursion_1;
+package _10_recursion.Class.Recursion_2;
 
 public class ReverseTheDigitsOfANumber {
     public static int reverse1(int currentNumber, int n){

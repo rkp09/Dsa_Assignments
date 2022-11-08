@@ -1,4 +1,4 @@
-package _10_recursion;
+package _10_recursion.Class.Recursion_1;
 
 public class Numbers {
     public static void main(String[] args) {
